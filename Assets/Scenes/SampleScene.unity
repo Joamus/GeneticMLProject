@@ -872,7 +872,7 @@ MonoBehaviour:
   leftBoundary: {fileID: 785399119}
   rightBoundary: {fileID: 909386125}
   ballPrefab: {fileID: 1773339727334198, guid: dc5678cced1f64c6a953a3738fa111d6, type: 2}
-  spawnDelay: 0.2
+  spawnDelay: 1
   fitnessText: {fileID: 96991635}
   generationText: {fileID: 1397722271}
   playerAmountText: {fileID: 1426030754}

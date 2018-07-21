@@ -15,7 +15,7 @@ public class Brain
     List<Neuron> outputLayer;
     int outputAmount = 2;
 
-    float outputThreshhold = 0.5f;
+    float outputThreshhold = 0.6f;
 
     float mutationRate;
 

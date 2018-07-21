@@ -72,7 +72,7 @@ public class GameManagerScript : MonoBehaviour {
     void InstantiatePlayers() {
         for (int i = 0; i < playerAmount; i++)
         {
-            GameObject player = Instantiate(playerPrefab, new Vector3(0, -3.5f, 0), Quaternion.identity);
+            Instantiate(playerPrefab, new Vector3(0, -3.5f, 0), Quaternion.identity);
         }
     }
 

@@ -12,14 +12,14 @@ using UnityEngine;
         // For selection I'll just take the top 5% of the list, which we know are the ones added last to the array.
 
         public static List<Brain> selection(List<Brain> generation) {
-            int topTenPercent = (int)(generation.Count / 5);
+            int topTenPercent = (int)(generation.Count / 10);
             
             fittestBrains = new List<Brain>();
 
 
             // If there are 100 cubes in the generation, this should take the last 10
         for (int i = generation.Count-topTenPercent; i < generation.Count; i++) {
-            //  Debug.Log("");
+            Debug.Log("Top : " + i + " Fitness: " + generation[i].GetFitness());
                 fittestBrains.Add(generation[i]);
             }
 
